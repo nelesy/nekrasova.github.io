@@ -1,0 +1,36 @@
+	body {font-family: Georgia, serif;
+	      font-size: 25px;
+	      line-height: 33px;}
+​
+	h3 {font-family: Helvetica Neue, sans-serif;
+	    font-weight: bold;
+		margin: 0 0 .1em 0;}
+​
+	p {margin: 0 0 .88em 0;}
+​
+	section {margin: 0 0 2em 0;}
+
+	img {display: block; 
+		max-width: 100%;
+		height: auto;
+		margin-bottom: 2em;}
+	
+		
+	.row {display: flex;
+		  flex-direction: row;
+		  justify-content: space-around;
+		  flex-wrap: nowrap;
+		  }
+  ​
+/*	.col-1,
+	.col-4 {box-sizing: border-box;}*/
+  ​
+	.col-1 {flex: 1 1 0;
+			padding: 2% 4% 6% 2%;
+		  }
+  ​
+	.col-4 {flex-grow: 0;
+			flex-shrink: 0;
+			flex-basis: 100%;
+			max-width: 100%;
+		  }
